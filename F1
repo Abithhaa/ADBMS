@@ -1,9 +1,0 @@
-a) update Emp5 set HRA = Basic*40/100;
-    update Emp5 set GrossPay = Basic+DA+HRA;
-    update Emp5 set NetPay = GrossPay-PF;
- 
-c)  update Emp5 set NetPay = NetPay + 1200 where NetPay < 10000;
-d) select*from Emp5 where GrossPay between 10000 and 20000;
- 
-e) select*from Emp5 where Basic+DA+HRA-PF=(select max(Basic+DA+HRA-PF)from Emp5;
- 
